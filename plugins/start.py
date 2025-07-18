@@ -12,7 +12,7 @@ async def handle_start(bot: Client, message: Message):
     Btn = [
         [InlineKeyboardButton(text='⛑️ 𝖧ᴇʟᴘ 🚁', callback_data='help'), InlineKeyboardButton(text='🌀 𝖡ᴏᴛ sᴛᴀᴛᴜs ✳️', callback_data='server')],
         [InlineKeyboardButton(text='📰 𝖴ᴘᴅᴀᴛᴇs 🗞️', url='https://t.me/PURVI_SUPPORT'), InlineKeyboardButton(text='🤖 𝖡ᴏᴛ 𝐈ɴғᴏ ℹ️', callback_data='about')],
-        [InlineKeyboardButton(text='🧑‍💻 𝖮ᴡɴᴇʀ ⌨️', url='https://t.me/ll_ALPHA_BABY_lll')]
+        [InlineKeyboardButton(text='🧑‍💻 𝖮ᴡɴᴇʀ ⌨️', user_id=Config.OWNER)]
     ]
 
     X = "https://files.catbox.moe/t5sqxa.jpg"
