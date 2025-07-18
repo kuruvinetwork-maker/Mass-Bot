@@ -6,7 +6,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     repo: #Gitrepo
-    branch: master
+    branch: main
     autoDeploy: false
     envVars:
       - key: BOT_TOKEN
