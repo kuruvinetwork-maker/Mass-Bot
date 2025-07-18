@@ -185,16 +185,6 @@ async def handle_Query(bot: Client, query: CallbackQuery):
             print('Error on line {}'.format(
                 sys.exc_info()[-1].tb_lineno), type(e).__name__, e)
 
-    elif data.startswith('delconfig'):
-        condition = data.split('-')[1]
-        try:
-            if condition == 'yes':
-                os.remove('config.json')
-                await query.message.edit("**Sᴜᴄᴄᴇssғᴜʟʟʏ Dᴇʟᴇᴛᴇᴅ ✅**")
-            else:
-                await query.message.edit("**Yᴏᴜ Cᴀɴᴄᴇʟᴇᴅ Tʜᴇ Pʀᴏᴄᴇss ❌**")
-        except Exception as e:
-            await query.message.edit(f"{e}\n\n Eʀʀᴏʀ...😵")
 
     elif data.startswith('delconfig'):
         condition = data.split('-')[1]
