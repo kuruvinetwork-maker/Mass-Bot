@@ -186,19 +186,20 @@ async def handle_Query(bot: Client, query: CallbackQuery):
                 sys.exc_info()[-1].tb_lineno), type(e).__name__, e)
 
 
+    
     elif data.startswith('delconfig'):
         condition = data.split('-')[1]
-    try:
-        if condition == 'yes':
-            if config_path.exists():
-                os.remove(config_path)
-                await query.message.edit("**Sᴜᴄᴄᴇssғᴜʟʟʏ Dᴇʟᴇᴛᴇᴅ ✅**")
+        try:
+            if condition == 'yes':
+                if config_path.exists():
+                    os.remove(config_path)
+                    await query.message.edit("**Sᴜᴄᴄᴇssғᴜʟʟʏ Dᴇʟᴇᴛᴇᴅ ✅**")
+                else:
+                    await query.message.edit("**Fɪʟᴇ Nᴏᴛ Fᴏᴜɴᴅ ⚠️**")
             else:
-                await query.message.edit("**Fɪʟᴇ Nᴏᴛ Fᴏᴜɴᴅ ⚠️**")
-        else:
-            await query.message.edit("**Yᴏᴜ Cᴀɴᴄᴇʟᴇᴅ Tʜᴇ Pʀᴏᴄᴇss ❌**")
-    except Exception as e:
-        await query.message.edit(f"`{e}`\n\n**Eʀʀᴏʀ...😵**")
+                await query.message.edit("**Yᴏᴜ Cᴀɴᴄᴇʟᴇᴅ Tʜᴇ Pʀᴏᴄᴇss ❌**")
+        except Exception as e:
+            await query.message.edit(f"`{e}`\n\n**Eʀʀᴏʀ...😵**")
 
     elif data == "account_config":
 
