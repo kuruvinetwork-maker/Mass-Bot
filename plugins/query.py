@@ -78,8 +78,7 @@ async def handle_Query(bot: Client, query: CallbackQuery):
                 text='🌀 𝖡ᴏᴛ sᴛᴀᴛᴜs ✳️', callback_data='server')],
             [InlineKeyboardButton(text='📰 𝖴ᴘᴅᴀᴛᴇs 🗞️', url='https://t.me/PURVI_SUPPORT'),
              InlineKeyboardButton(text='🤖 𝖡ᴏᴛ 𝖨ɴғᴏ ℹ️', callback_data='about')],
-            [InlineKeyboardButton(text='🧑‍💻 𝖮ᴡɴᴇʀ ⌨️',
-                                  url='https://t.me/ll_ALPHA_BABY_lll')]
+            [InlineKeyboardButton(text='🧑‍💻 𝖮ᴡɴᴇʀ ⌨️', user_id=Config.OWNER)]
         ]
 
         await query.message.edit(text=Txt.START_MSG.format(query.from_user.mention), reply_markup=InlineKeyboardMarkup(Btn))
