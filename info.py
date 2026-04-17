@@ -96,7 +96,7 @@ class Txt(object):
 
 <b>✦ » Tʜɪs Bᴏᴛ ɪs ғᴏʀ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ɪɴ ᴍᴀss ʟᴇᴠᴇʟ ᴛʜʀᴏᴜɢʜ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ sᴇssɪᴏɴ sᴛʀɪɴɢ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʙʏ :- <a href=t.me/king_string_session_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b> 
 
-<b>✦ » Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :- <a href=t.me/ll_ALPHA_BABY_lll>ᴀʟᴘʜᴀ ʙᴀʙʏ</a></b>
+<b>✦ » Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :- <a href=t.me/KURUVI_BABY>ᴋᴜʀᴜᴠɪ ʙᴀʙʏ</a></b>
 """
 
     HELP_MSG = """
