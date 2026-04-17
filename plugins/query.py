@@ -76,7 +76,7 @@ async def handle_Query(bot: Client, query: CallbackQuery):
         Btn = [
             [InlineKeyboardButton(text='⛑️ 𝖧ᴇʟᴘ 🚁', callback_data='help'), InlineKeyboardButton(
                 text='🌀 𝖡ᴏᴛ sᴛᴀᴛᴜs ✳️', callback_data='server')],
-            [InlineKeyboardButton(text='📰 𝖴ᴘᴅᴀᴛᴇs 🗞️', url='https://t.me/KURUVI_SUPPORT_CHAT'),
+            [InlineKeyboardButton(text='📰 𝖴ᴘᴅᴀᴛᴇs 🗞️', url='https://t.me/kuruvi_bot_updates'),
              InlineKeyboardButton(text='🤖 𝖡ᴏᴛ 𝖨ɴғᴏ ℹ️', callback_data='about')],
             [InlineKeyboardButton(text='🧑‍💻 𝖮ᴡɴᴇʀ ⌨️', user_id=Config.OWNER)]
         ]
